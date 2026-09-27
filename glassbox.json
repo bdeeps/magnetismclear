@@ -1,0 +1,180 @@
+{
+  "slug": "magnetismclear",
+  "kind": "principle",
+  "box": 26,
+  "date": "2026-09-27",
+  "title": "Magnetism",
+  "question": "What is magnetism?",
+  "principle": {
+    "type": "concept",
+    "name": "Magnetism",
+    "formula": "F = q v × B",
+    "formulaNote": "force on a moving charge = charge × velocity × field, at right angles to both. For a wire carrying current I across a field B: F = B × I × L. Fields are measured in tesla: Earth ≈ 25–65 µT, a fridge magnet ≈ 5 mT, an MRI scanner 1.5–3 T.",
+    "idea": "Magnets and electric currents fill the space around them with a magnetic field. Like poles repel and unlike poles attract, and a current in a field gets a sideways push, which is how motors, loudspeakers and MRI scanners work.",
+    "discovered": "c. 600 BCE lodestone (Thales, attributed); 1600 · William Gilbert, De Magnete; 1820 · Hans Christian Ørsted",
+    "art": "compass",
+    "appliesTo": [
+      "mriclear",
+      "fanclear",
+      "microwaveclear",
+      "upsclear",
+      "mixerclear",
+      "guitarclear",
+      "carclear",
+      "synthclear"
+    ],
+    "examples": [
+      {
+        "title": "The MRI scanner's giant magnet",
+        "text": "A superconducting coil at −269 °C makes 1.5 or 3 T down the tunnel, about 30,000 to 60,000 times the Earth's field, with no power needed to keep it going.",
+        "box": "mriclear"
+      },
+      {
+        "title": "The magnetron's ring magnets",
+        "text": "Two ring magnets make about 0.17 T along the magnetron, curling its electrons past copper cavities so they ring at 2.45 GHz.",
+        "box": "microwaveclear"
+      },
+      {
+        "title": "A fan's induction motor",
+        "text": "Two coils fed a little out of step make a field that rotates, and the rotor is dragged round after it: no brushes, no magnets.",
+        "box": "fanclear"
+      },
+      {
+        "title": "A mixer's universal motor",
+        "text": "Field coils and a brushed commutator, the textbook DC motor on mains, spin the blades at up to about 22,000 rpm with no load.",
+        "box": "mixerclear"
+      },
+      {
+        "title": "The inverter's transformer",
+        "text": "Two coils on one iron core turn the battery's 12 V into 230 V: the voltage changes by the ratio of the turns.",
+        "box": "upsclear"
+      },
+      {
+        "title": "Pickups and the amp's speaker",
+        "text": "A magnet under each string makes the steel string magnetic; its wiggle makes a signal in the coil, and at the other end a magnet and voice coil push the speaker cone.",
+        "box": "guitarclear"
+      },
+      {
+        "title": "An electric car's motor",
+        "text": "Most electric cars drive their wheels with a permanent-magnet motor packed with neodymium magnets, giving full twist from standstill.",
+        "box": "carclear"
+      },
+      {
+        "title": "The synth's loudspeaker",
+        "text": "Everything in a synth is voltage until the end, when a coil in a magnet's gap pushes a paper cone in and out: F = B I L at work.",
+        "box": "synthclear"
+      },
+      {
+        "title": "A compass on a trek",
+        "text": "A magnetised needle lines up with the Earth's field of 25–65 µT. Over India it points within a degree or two of true north."
+      },
+      {
+        "title": "The scrapyard crane",
+        "text": "A 1.5 m electromagnet lifts a scrap car when switched on and drops it the instant the current is cut."
+      }
+    ]
+  },
+  "hook": "Iron filings trace invisible curves, a wire with current in it swings a compass, and a coil with an iron core lifts a car. Map fields in tesla, spin a motor, curl electrons in a magnetron, flip the Earth's field and heat a nail past 770 °C.",
+  "thumbText": "MAGNETISM",
+  "field": "physics",
+  "minutes": 12,
+  "tags": [
+    "magnetism",
+    "magnetic field",
+    "tesla",
+    "poles",
+    "field lines",
+    "compass",
+    "electromagnet",
+    "solenoid",
+    "motor effect",
+    "Fleming's left-hand rule",
+    "DC motor",
+    "loudspeaker",
+    "MRI",
+    "magnetron",
+    "transformer",
+    "Earth's magnetic field",
+    "aurora",
+    "Curie point",
+    "domains",
+    "superconductor",
+    "physics",
+    "three.js"
+  ],
+  "explainer": [
+    {
+      "title": "Poles, fields and the tesla",
+      "text": "Like poles repel and unlike poles attract. A magnet's field runs out of north and into south, and iron filings and compasses line up along it. Field is measured in tesla: the Earth is 25–65 µT, a fridge magnet about 5 mT, an MRI 1.5–3 T. The force between magnets falls off steeply with distance."
+    },
+    {
+      "title": "Current makes a magnet",
+      "text": "Ørsted found in 1820 that a current's field circles the wire, B = μ₀ I ÷ 2πr. Coil the wire and the field inside is B = μ₀ n I; add an iron core and it grows hundreds of times, until the iron saturates. Cranes, bells, relays and door locks are switchable magnets."
+    },
+    {
+      "title": "A current in a field feels a push",
+      "text": "F = B I L, at right angles to field and current (Fleming's left hand). A coil with a commutator becomes a DC motor whose back-EMF chokes the current as it speeds up. A loudspeaker shakes a coil in a 1 T gap to push air."
+    },
+    {
+      "title": "Magnets in machines",
+      "text": "A superconducting MRI magnet at 1.5–3 T, a magnetron's 0.17 T that curls electrons into microwaves, guitar pickups, transformers that trade volts for turns, and hard disks that store a trillion tiny magnets per square inch."
+    },
+    {
+      "title": "Earth, hot iron and two myths",
+      "text": "The Earth's field is tilted, wanders and has flipped many times; it shields us and lights the aurora. Iron is magnetic because its domains line up, until 770 °C. Break a magnet and you get two magnets, and magnet bracelets have no proven healing power."
+    }
+  ],
+  "concepts": [
+    {
+      "term": "Magnetic field",
+      "def": "The region round a magnet or current where magnetic forces act, with a strength and a direction."
+    },
+    {
+      "term": "Tesla (T)",
+      "def": "The SI unit of magnetic field (flux density). Earth ≈ 50 µT; an MRI 1.5–3 T."
+    },
+    {
+      "term": "Magnetic poles",
+      "def": "The north and south ends of a magnet. Like poles repel, unlike poles attract, and they always come in pairs."
+    },
+    {
+      "term": "Electromagnet",
+      "def": "A coil, usually round an iron core, that is a magnet only while current flows: B = μ₀ n I inside."
+    },
+    {
+      "term": "Motor effect",
+      "def": "A current in a field feels a force F = B I L at right angles to both, shown by Fleming's left-hand rule."
+    },
+    {
+      "term": "Magnetic domains",
+      "def": "Tiny regions in iron where the atoms' magnets all point one way. Lining them up magnetises the iron."
+    },
+    {
+      "term": "Curie point",
+      "def": "The temperature above which a ferromagnet loses its magnetism: 770 °C for iron."
+    },
+    {
+      "term": "Magnetosphere",
+      "def": "The bubble of the Earth's field in space that turns aside the solar wind and guides the aurora."
+    }
+  ],
+  "links": {},
+  "storage": [
+    {
+      "key": "magnetismclear.v1",
+      "what": "Which chapters you have opened, your best quiz scores, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Geist, Instrument Serif",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
+}

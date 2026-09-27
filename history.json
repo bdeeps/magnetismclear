@@ -1,0 +1,870 @@
+{
+ "title": "The history of magnetism",
+ "tagline": "From stones that pull iron to compass needles, electromagnets, MRI scanners and neodymium magnets.",
+ "intro": "People have known for thousands of years that some stones pull iron and that a magnetised needle points north. Gilbert showed in 1600 that the Earth itself is a magnet. In 1820 Ørsted found that electric currents make magnetism, and within a few years came the electric motor and the electromagnet. Since then magnets have gone into every motor, speaker, hard drive and hospital scanner, and observatories from Colaba to Göttingen keep watch on the Earth's own field.",
+ "eras": [
+  {
+   "id": "stone",
+   "name": "Stones that point",
+   "from": -600,
+   "to": 1200,
+   "color": "#c49bff",
+   "summary": "Lodestone pulls iron in Greece and China, and Chinese scholars and sailors turn a magnetised needle into a compass."
+  },
+  {
+   "id": "earth",
+   "name": "A magnetic planet",
+   "from": 1269,
+   "to": 1860,
+   "color": "#8ef0ff",
+   "summary": "Poles are named, Gilbert shows the Earth is a magnet, and observatories from Göttingen to Colaba measure its field."
+  },
+  {
+   "id": "electro",
+   "name": "Electricity makes magnetism",
+   "from": 1820,
+   "to": 1865,
+   "color": "#ffb547",
+   "summary": "Ørsted's swinging needle leads to Ampère's currents, Faraday's motor, Sturgeon's electromagnet and Maxwell's equations."
+  },
+  {
+   "id": "inside",
+   "name": "Inside the magnet",
+   "from": 1895,
+   "to": 1933,
+   "color": "#ff6a5c",
+   "summary": "Curie, Weiss and others find why iron is magnetic, why heat stops it, and that the Earth's field flips."
+  },
+  {
+   "id": "modern",
+   "name": "Magnets everywhere",
+   "from": 1960,
+   "to": 2024,
+   "color": "#7be08c",
+   "summary": "The tesla is named, MRI scanners image the body, and neodymium magnets shrink motors, speakers and drives."
+  }
+ ],
+ "events": [
+  {
+   "year": -600,
+   "date": "c. 600 BCE",
+   "era": "stone",
+   "art": "magnet",
+   "key": true,
+   "title": "Stones that pull iron",
+   "who": "Thales of Miletus (attributed)",
+   "where": "Miletus, Ionia",
+   "country": "Greece",
+   "text": "Later Greek writers, starting with Aristotle, say that Thales noticed lodestone, a natural magnetic rock, pulls on iron. He is said to have thought the stone had a soul. The story is second-hand, but lodestone was well known in the ancient world, in Greece, China and India.",
+   "why": "It is the oldest story we have of someone wondering why magnets pull.",
+   "box": "idea",
+   "sources": [
+    1,
+    0
+   ]
+  },
+  {
+   "year": 80,
+   "date": "c. 1st century CE",
+   "era": "stone",
+   "art": "compass",
+   "key": false,
+   "title": "A spoon that points south?",
+   "who": "Wang Chong (describing a 'south-pointer')",
+   "where": "Han dynasty",
+   "country": "China",
+   "text": "Wang Chong's book Lunheng mentions a 'south-pointer' that comes to rest pointing south. Many historians read it as a lodestone spoon spun on a bronze plate, used for divination rather than travel. Others doubt such a spoon ever existed.",
+   "why": "If the reading is right, it is the first known magnetic direction-finder.",
+   "sources": [
+    2,
+    1
+   ]
+  },
+  {
+   "year": 1088,
+   "date": "1088",
+   "era": "stone",
+   "art": "compass",
+   "key": true,
+   "title": "A magnetised needle, and a surprise",
+   "who": "Shen Kuo",
+   "where": "Song dynasty",
+   "country": "China",
+   "text": "In his Dream Pool Essays, Shen Kuo describes rubbing a needle on lodestone and hanging it from a single silk thread so it points south. He also noted that it does not point exactly south, but a little to the east: the first record of magnetic declination.",
+   "why": "It is the earliest clear description of a compass needle, and of the gap between magnetic and true north.",
+   "box": "limits",
+   "sources": [
+    3,
+    2
+   ]
+  },
+  {
+   "year": 1117,
+   "date": "c. 1100 (written 1117)",
+   "era": "stone",
+   "art": "boat",
+   "key": false,
+   "title": "The mariner's compass",
+   "who": "Zhu Yu",
+   "where": "Guangzhou, Song dynasty",
+   "country": "China",
+   "text": "Zhu Yu's Pingzhou Table Talks, written in 1117 about the years around 1100, says that ship pilots steered by the stars at night and the Sun by day, and in dark weather looked at the south-pointing needle. The compass reached Europe and the Islamic world within about a century.",
+   "why": "It is the first written record of a compass used for navigation at sea.",
+   "sources": [
+    4,
+    2
+   ]
+  },
+  {
+   "year": 1269,
+   "date": "1269",
+   "era": "earth",
+   "art": "scroll",
+   "key": false,
+   "title": "Poles, and a magnet broken in two",
+   "who": "Petrus Peregrinus de Maricourt",
+   "where": "Siege of Lucera, Italy",
+   "country": "France",
+   "text": "In a letter written during a siege, the French scholar Peter Peregrinus named the two ends of a magnet its poles, showed that like poles repel and unlike attract, and noted that breaking a magnet gives two magnets, each with both poles.",
+   "why": "It was the first careful experimental account of magnets in Europe, and it busts a myth still told today.",
+   "box": "limits",
+   "sources": [
+    5,
+    0
+   ]
+  },
+  {
+   "year": 1600,
+   "date": "1600",
+   "era": "earth",
+   "art": "earth",
+   "key": true,
+   "title": "The Earth is a great magnet",
+   "who": "William Gilbert",
+   "where": "London",
+   "country": "England",
+   "text": "Gilbert, doctor to Queen Elizabeth I, spent years testing magnets and published De Magnete. With a small magnetised sphere, a 'terrella', he showed that a compass behaves on it just as on the Earth, dipping near the poles. His conclusion: the Earth itself is a magnet.",
+   "why": "It explained why compasses work and made magnetism a subject for experiments rather than legends.",
+   "box": "limits",
+   "sources": [
+    6,
+    7
+   ]
+  },
+  {
+   "year": 1785,
+   "date": "1785",
+   "era": "earth",
+   "art": "scales",
+   "key": false,
+   "title": "The force falls off with distance",
+   "who": "Charles-Augustin de Coulomb",
+   "where": "Paris",
+   "country": "France",
+   "text": "Using a sensitive twisting balance, Coulomb measured the force between the poles of long magnetised needles and found it falls with the square of the distance, the same rule he found for electric charges.",
+   "why": "It gave magnetism its first mathematical law of force, the pole model this box still uses to draw field lines.",
+   "box": "idea",
+   "sources": [
+    8,
+    0
+   ]
+  },
+  {
+   "year": 1820,
+   "date": "21 July 1820",
+   "era": "electro",
+   "art": "compass",
+   "key": true,
+   "title": "Electricity makes magnetism",
+   "who": "Hans Christian Ørsted",
+   "where": "Copenhagen",
+   "country": "Denmark",
+   "text": "Ørsted saw a compass needle swing when current flowed in a wire above it, reportedly first during a lecture in the spring of 1820. He published the result in a short Latin paper that summer. The needle turned across the wire, showing the field goes round it.",
+   "why": "It joined electricity and magnetism for the first time and set off a burst of discoveries within months.",
+   "box": "electro",
+   "sources": [
+    9,
+    0
+   ]
+  },
+  {
+   "year": 1820,
+   "date": "September 1820",
+   "era": "electro",
+   "art": "coil",
+   "key": false,
+   "title": "Currents push and pull on each other",
+   "who": "André-Marie Ampère",
+   "where": "Paris",
+   "country": "France",
+   "text": "Within weeks of hearing of Ørsted's result, Ampère showed that two parallel wires attract when their currents flow the same way and repel when opposite. He suggested that all magnetism comes from tiny circulating currents. The unit of current, the ampere, is named after him.",
+   "why": "It showed that magnets and coils of current are the same kind of thing.",
+   "box": "electro",
+   "sources": [
+    10,
+    0
+   ]
+  },
+  {
+   "year": 1821,
+   "date": "3–4 September 1821",
+   "era": "electro",
+   "art": "motor",
+   "key": true,
+   "title": "The first electric motor",
+   "who": "Michael Faraday",
+   "where": "Royal Institution, London",
+   "country": "England",
+   "text": "Faraday hung a wire so its end dipped into a bowl of mercury round a standing magnet. When current flowed, the wire swept round and round the magnet. It was the first device to turn electric current into continuous motion.",
+   "why": "Every electric motor, from a mixer grinder to an electric car, grows from this experiment.",
+   "box": "motors",
+   "sources": [
+    11,
+    0
+   ]
+  },
+  {
+   "year": 1825,
+   "date": "1825",
+   "era": "electro",
+   "art": "magnet",
+   "key": true,
+   "title": "The electromagnet",
+   "who": "William Sturgeon",
+   "where": "London",
+   "country": "England",
+   "text": "Sturgeon varnished a horseshoe of iron, wound about 18 turns of bare copper wire round it and connected a single battery cell. The 200 g magnet held up about 4 kg of iron, and let go the moment the current stopped. The Society of Arts gave him a silver medal.",
+   "why": "It was the first magnet you could switch on and off, the ancestor of cranes, relays, bells and MRI magnets.",
+   "box": "electro",
+   "sources": [
+    12,
+    13
+   ]
+  },
+  {
+   "year": 1832,
+   "date": "1832",
+   "era": "earth",
+   "art": "compass",
+   "key": false,
+   "title": "Measuring the Earth's field in numbers",
+   "who": "Carl Friedrich Gauss",
+   "where": "Göttingen",
+   "country": "Germany",
+   "text": "Gauss worked out how to measure the strength of the Earth's field in absolute units, using a swinging magnet and a fixed one. With Wilhelm Weber he set up a network of observatories to record the field at the same moments. The old unit of field, the gauss (1/10,000 of a tesla), is named after him.",
+   "why": "It turned the Earth's field into something you could measure and compare around the world.",
+   "box": "idea",
+   "sources": [
+    14,
+    0
+   ]
+  },
+  {
+   "year": 1841,
+   "date": "1841",
+   "era": "earth",
+   "art": "building",
+   "key": true,
+   "title": "India's magnetic observatory at Colaba",
+   "who": "Colaba Observatory, later directed by Nanabhoy Moos",
+   "where": "Colaba, Bombay (Mumbai)",
+   "country": "India",
+   "text": "Regular magnetic observations began at Colaba in Bombay in 1841. In 1904 electric trams began to disturb the readings, so the observatory moved across the harbour to Alibag, where it still runs. Its first Indian director, Nanabhoy Moos, published two huge volumes of its records in 1910.",
+   "why": "Colaba–Alibag is one of the world's longest-running magnetic observatories.",
+   "box": "limits",
+   "sources": [
+    15
+   ]
+  },
+  {
+   "year": 1859,
+   "date": "1–2 September 1859",
+   "era": "earth",
+   "art": "eclipse",
+   "key": false,
+   "title": "The Carrington storm seen from Bombay",
+   "who": "Colaba Observatory",
+   "where": "Colaba, Bombay (Mumbai)",
+   "country": "India",
+   "text": "After Richard Carrington saw a brilliant flare on the Sun, the biggest magnetic storm on record hit the Earth. Colaba's hand-read instruments saw the horizontal field drop by about 1,600 nanotesla, far more than in any storm since, and aurora were seen close to the tropics.",
+   "why": "Colaba's readings are among the best measurements of how strong a solar storm can be.",
+   "box": "limits",
+   "sources": [
+    16,
+    15
+   ]
+  },
+  {
+   "year": 1865,
+   "date": "1865",
+   "era": "electro",
+   "art": "wave",
+   "key": true,
+   "title": "Light is an electromagnetic wave",
+   "who": "James Clerk Maxwell",
+   "where": "King’s College London",
+   "country": "England",
+   "text": "Maxwell gathered everything known about electricity and magnetism into one set of equations. They predicted waves of electric and magnetic field travelling at the speed of light, and he concluded that light is one of them.",
+   "why": "It unified electricity, magnetism and light, and led to radio, microwaves and MRI.",
+   "sources": [
+    17,
+    0
+   ]
+  },
+  {
+   "year": 1895,
+   "date": "1895",
+   "era": "inside",
+   "art": "thermometer",
+   "key": true,
+   "title": "Heat destroys magnetism",
+   "who": "Pierre Curie",
+   "where": "Paris",
+   "country": "France",
+   "text": "For his doctoral thesis Pierre Curie measured how magnetism changes with temperature. He found that iron and other ferromagnets lose their strong magnetism above a certain temperature, now called the Curie point: 770 °C for iron.",
+   "why": "It showed that magnetism depends on the order of atoms, which heat can scramble.",
+   "box": "limits",
+   "sources": [
+    18
+   ]
+  },
+  {
+   "year": 1906,
+   "date": "1906",
+   "era": "inside",
+   "art": "mountain",
+   "key": false,
+   "title": "Rocks that point the wrong way",
+   "who": "Bernard Brunhes",
+   "where": "Cantal, France",
+   "country": "France",
+   "text": "Brunhes found volcanic rocks magnetised in the opposite direction to today's field. In 1929 Motonori Matuyama in Japan showed such reversed rocks come from a particular age. Together they revealed that the Earth's field flips; the last full reversal was about 780,000 years ago.",
+   "why": "It showed the Earth's magnet is not fixed, and later helped prove that the sea floor spreads.",
+   "box": "limits",
+   "sources": [
+    19
+   ]
+  },
+  {
+   "year": 1907,
+   "date": "1907",
+   "era": "inside",
+   "art": "atomspin",
+   "key": false,
+   "title": "Domains inside iron",
+   "who": "Pierre Weiss",
+   "where": "Zurich",
+   "country": "Switzerland",
+   "text": "Weiss proposed that inside iron a strong internal 'molecular field' lines up the atomic magnets in small regions, now called domains. An unmagnetised nail has its domains pointing every which way; a magnet nearby lines them up.",
+   "why": "It explained why iron can be magnetised and demagnetised, and why it stops at the Curie point.",
+   "box": "limits",
+   "sources": [
+    20,
+    18
+   ]
+  },
+  {
+   "year": 1933,
+   "date": "1933",
+   "era": "inside",
+   "art": "ice",
+   "key": false,
+   "title": "Superconductors push fields out",
+   "who": "Walther Meissner and Robert Ochsenfeld",
+   "where": "Berlin",
+   "country": "Germany",
+   "text": "Meissner and Ochsenfeld found that a metal cooled into its superconducting state expels a magnetic field from inside itself. Superconductivity itself had been found by Heike Kamerlingh Onnes in 1911. Today superconducting coils make MRI fields, and magnets can float above cold superconductors.",
+   "why": "It showed superconductors are more than perfect wires: they are also near-perfect magnetic shields.",
+   "box": "limits",
+   "sources": [
+    21
+   ]
+  },
+  {
+   "year": 1960,
+   "date": "1960",
+   "era": "modern",
+   "art": "bolt",
+   "key": false,
+   "title": "The tesla is named",
+   "who": "11th General Conference on Weights and Measures",
+   "where": "Paris",
+   "country": "France",
+   "text": "The new International System of Units named the unit of magnetic flux density after Nikola Tesla, the inventor of the rotating-field induction motor. One tesla is a strong field: 20,000 times the Earth's.",
+   "why": "It gave the whole world one unit for field strength, from microtesla compasses to 3 T scanners.",
+   "box": "idea",
+   "sources": [
+    22,
+    23
+   ]
+  },
+  {
+   "year": 1971,
+   "date": "1971",
+   "era": "modern",
+   "art": "mri",
+   "key": false,
+   "title": "Tumours answer back",
+   "who": "Raymond Damadian",
+   "where": "Brooklyn, New York",
+   "country": "USA",
+   "text": "Damadian reported that the nuclear magnetic resonance signal of some tumours fades more slowly than that of healthy tissue, and proposed using it to find cancer. On 3 July 1977 his team made the first scan of a whole human body with their magnet, 'Indomitable'.",
+   "why": "It was the first push to use magnetic resonance in medicine.",
+   "box": "machines",
+   "sources": [
+    36,
+    25
+   ]
+  },
+  {
+   "year": 1973,
+   "date": "1973",
+   "era": "modern",
+   "art": "mri",
+   "key": true,
+   "title": "Pictures made with magnetic fields",
+   "who": "Paul Lauterbur, and later Peter Mansfield",
+   "where": "Stony Brook, New York; Nottingham",
+   "country": "USA",
+   "text": "Lauterbur added a gentle slope, or gradient, to the magnetic field, so that each place in the sample answered at a slightly different frequency. From the answers he built the first magnetic resonance image, of two tubes of water. Mansfield in Nottingham made the method fast. They shared the 2003 Nobel Prize.",
+   "why": "It is the basis of every MRI scan today, made in fields of 1.5 to 3 T.",
+   "box": "machines",
+   "sources": [
+    37,
+    24,
+    25
+   ]
+  },
+  {
+   "year": 1982,
+   "date": "1982",
+   "era": "modern",
+   "art": "magnet",
+   "key": true,
+   "title": "The neodymium magnet",
+   "who": "Masato Sagawa",
+   "where": "Sumitomo Special Metals, Osaka",
+   "country": "Japan",
+   "text": "Sagawa combined neodymium, iron and boron into Nd₂Fe₁₄B, the strongest permanent magnet ever made. He announced it in 1983; John Croat at General Motors found the same compound independently. Mass production followed within three years.",
+   "why": "Neodymium magnets made small, strong motors, headphones, hard drives and electric cars possible.",
+   "box": "idea",
+   "sources": [
+    26,
+    27,
+    35
+   ]
+  },
+  {
+   "year": 2024,
+   "date": "10–11 May 2024",
+   "era": "modern",
+   "art": "night",
+   "key": false,
+   "title": "Aurora over Ladakh",
+   "who": "Indian Institute of Astrophysics",
+   "where": "Hanle, Ladakh",
+   "country": "India",
+   "text": "The strongest magnetic storm in two decades pushed the aurora so far south that all-sky cameras at the Indian Astronomical Observatory in Hanle recorded a red glow over the Himalaya. Scientists in Bengaluru later traced it to several merging eruptions from the Sun.",
+   "why": "It was a reminder that the Earth's magnetic shield is always being tested by the Sun.",
+   "box": "limits",
+   "sources": [
+    28
+   ]
+  }
+ ],
+ "firsts": [
+  {
+   "label": "Compass needle described",
+   "value": "1088",
+   "who": "Shen Kuo, China"
+  },
+  {
+   "label": "Magnet poles named; broken magnet makes two",
+   "value": "1269",
+   "who": "Petrus Peregrinus, France"
+  },
+  {
+   "label": "The Earth shown to be a magnet",
+   "value": "1600",
+   "who": "William Gilbert, England"
+  },
+  {
+   "label": "Electric current found to make magnetism",
+   "value": "1820",
+   "who": "Hans Christian Ørsted, Denmark"
+  },
+  {
+   "label": "First electric motor",
+   "value": "1821",
+   "who": "Michael Faraday, England"
+  },
+  {
+   "label": "First electromagnet",
+   "value": "1825",
+   "who": "William Sturgeon, England"
+  },
+  {
+   "label": "Magnetic observatory in India",
+   "value": "1841",
+   "who": "Colaba, Bombay"
+  },
+  {
+   "label": "Tesla adopted as the SI unit of field",
+   "value": "1960",
+   "who": "CGPM, Paris"
+  },
+  {
+   "label": "First MRI image",
+   "value": "1973",
+   "who": "Paul Lauterbur, USA"
+  },
+  {
+   "label": "Neodymium–iron–boron magnet",
+   "value": "1982",
+   "who": "Masato Sagawa, Japan"
+  }
+ ],
+ "people": [
+  {
+   "name": "Thales of Miletus",
+   "life": "c. 624 – c. 546 BCE",
+   "role": "Philosopher",
+   "from": "Greece",
+   "note": "Said by later writers to have noticed that lodestone attracts iron."
+  },
+  {
+   "name": "Shen Kuo",
+   "life": "1031 – 1095",
+   "role": "Scholar and statesman",
+   "from": "China",
+   "note": "Described the magnetised compass needle and magnetic declination in 1088."
+  },
+  {
+   "name": "Petrus Peregrinus",
+   "life": "fl. 1269",
+   "role": "Scholar and engineer",
+   "from": "France",
+   "note": "Named the poles and showed that a broken magnet makes two magnets."
+  },
+  {
+   "name": "William Gilbert",
+   "life": "1544 – 1603",
+   "role": "Physician and natural philosopher",
+   "from": "England",
+   "note": "Showed with a model sphere that the Earth is a magnet, in De Magnete (1600)."
+  },
+  {
+   "name": "Hans Christian Ørsted",
+   "life": "1777 – 1851",
+   "role": "Physicist and chemist",
+   "from": "Denmark",
+   "note": "Found in 1820 that an electric current deflects a compass needle."
+  },
+  {
+   "name": "André-Marie Ampère",
+   "life": "1775 – 1836",
+   "role": "Physicist and mathematician",
+   "from": "France",
+   "note": "Showed that currents attract and repel; the unit of current is named after him."
+  },
+  {
+   "name": "Michael Faraday",
+   "life": "1791 – 1867",
+   "role": "Physicist and chemist",
+   "from": "England",
+   "note": "Built the first electric motor in 1821 and later discovered induction (see FaradayClear)."
+  },
+  {
+   "name": "William Sturgeon",
+   "life": "1783 – 1850",
+   "role": "Physicist and lecturer",
+   "from": "England",
+   "note": "Made the first electromagnet in 1825."
+  },
+  {
+   "name": "Carl Friedrich Gauss",
+   "life": "1777 – 1855",
+   "role": "Mathematician and physicist",
+   "from": "Germany",
+   "note": "Measured the Earth's field in absolute units and organised a network of observatories."
+  },
+  {
+   "name": "Nanabhoy Moos",
+   "life": "1859 – 1936",
+   "role": "Physicist and observatory director",
+   "from": "India",
+   "note": "First Indian director of the Colaba Observatory; moved it to Alibag and published its long records."
+  },
+  {
+   "name": "James Clerk Maxwell",
+   "life": "1831 – 1879",
+   "role": "Physicist",
+   "from": "Scotland",
+   "note": "Wrote the equations that unite electricity, magnetism and light."
+  },
+  {
+   "name": "Pierre Curie",
+   "life": "1859 – 1906",
+   "role": "Physicist",
+   "from": "France",
+   "note": "Found that iron loses its magnetism above a critical temperature, the Curie point."
+  },
+  {
+   "name": "Pierre Weiss",
+   "life": "1865 – 1940",
+   "role": "Physicist",
+   "from": "France",
+   "note": "Explained ferromagnetism with a molecular field and magnetic domains."
+  },
+  {
+   "name": "Paul Lauterbur",
+   "life": "1929 – 2007",
+   "role": "Chemist",
+   "from": "USA",
+   "note": "Made the first magnetic resonance image in 1973; Nobel Prize 2003."
+  },
+  {
+   "name": "Masato Sagawa",
+   "life": "born 1943",
+   "role": "Materials scientist",
+   "from": "Japan",
+   "note": "Invented the neodymium–iron–boron magnet in 1982."
+  }
+ ],
+ "series": [
+  {
+   "id": "energy",
+   "title": "How strong the best permanent magnets became",
+   "unit": "kJ/m³",
+   "log": true,
+   "after": "modern",
+   "caption": "The maximum energy product of leading magnet materials, a measure of how much magnetic energy a magnet can store in each cubic metre. Values are typical for each material.",
+   "points": [
+    {
+     "year": 1917,
+     "value": 8,
+     "label": "KS steel (Honda and Takagi): about 1 MGOe, 8 kJ/m³"
+    },
+    {
+     "year": 1940,
+     "value": 44,
+     "label": "Alnico 5: about 44 kJ/m³ (alnicos range 10–88)"
+    },
+    {
+     "year": 1970,
+     "value": 160,
+     "label": "Samarium–cobalt SmCo₅: about 160 kJ/m³"
+    },
+    {
+     "year": 1984,
+     "value": 290,
+     "label": "Sagawa's first sintered NdFeB: about 36 MGOe, 290 kJ/m³"
+    },
+    {
+     "year": 2020,
+     "value": 414,
+     "label": "Grade N52 neodymium magnets: about 52 MGOe, 414 kJ/m³"
+    }
+   ]
+  }
+ ],
+ "facts": [
+  "The Earth's field is only 25 to 65 microtesla, yet a compass needle a few grams in weight lines up with it.",
+  "A hospital MRI scanner at 3 T is about 60,000 times stronger than the Earth's field, and its coil needs no power to keep the field going.",
+  "Break a magnet into as many pieces as you like and every piece has its own north and south pole. No lone pole has ever been found.",
+  "Iron stops being magnetic at 770 °C. Neodymium magnets give up much sooner, at about 310 °C.",
+  "The magnetic observatory at Colaba had to move to Alibag in 1904 because Bombay's new electric trams upset its instruments."
+ ],
+ "sources": [
+  {
+   "title": "Magnetism",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Magnetism"
+  },
+  {
+   "title": "Lodestone",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Lodestone"
+  },
+  {
+   "title": "History of the compass",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_compass"
+  },
+  {
+   "title": "Shen Kuo",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Shen_Kuo"
+  },
+  {
+   "title": "Zhu Yu (author)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Zhu_Yu_(author)"
+  },
+  {
+   "title": "Petrus Peregrinus de Maricourt",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Petrus_Peregrinus_de_Maricourt"
+  },
+  {
+   "title": "De Magnete",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/De_Magnete"
+  },
+  {
+   "title": "William Gilbert",
+   "publisher": "Encyclopaedia Britannica",
+   "url": "https://www.britannica.com/biography/William-Gilbert"
+  },
+  {
+   "title": "Charles-Augustin de Coulomb",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Charles-Augustin_de_Coulomb"
+  },
+  {
+   "title": "Hans Christian Ørsted",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted"
+  },
+  {
+   "title": "André-Marie Ampère",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re"
+  },
+  {
+   "title": "Michael Faraday",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Michael_Faraday"
+  },
+  {
+   "title": "William Sturgeon, Scientist of the Day",
+   "publisher": "Linda Hall Library",
+   "url": "https://www.lindahall.org/about/news/scientist-of-the-day/william-sturgeon/"
+  },
+  {
+   "title": "Electromagnet",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Electromagnet"
+  },
+  {
+   "title": "Gauss (unit)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Gauss_(unit)"
+  },
+  {
+   "title": "Colaba–Alibag magnetic observatory and Nanabhoy Moos (Gurubaran et al., 2015)",
+   "publisher": "History of Geo- and Space Sciences",
+   "url": "https://hgss.copernicus.org/articles/6/107/2015/"
+  },
+  {
+   "title": "Temporal variations of the geomagnetic field at Colaba around the Carrington storm in 1859 (Hayakawa et al.)",
+   "publisher": "arXiv",
+   "url": "https://arxiv.org/abs/2109.13020"
+  },
+  {
+   "title": "A Dynamical Theory of the Electromagnetic Field",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/A_Dynamical_Theory_of_the_Electromagnetic_Field"
+  },
+  {
+   "title": "Curie temperature",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Curie_temperature"
+  },
+  {
+   "title": "Geomagnetic reversal",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Geomagnetic_reversal"
+  },
+  {
+   "title": "Pierre-Ernest Weiss",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Pierre-Ernest_Weiss"
+  },
+  {
+   "title": "Meissner effect",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Meissner_effect"
+  },
+  {
+   "title": "Tesla (unit)",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Tesla_(unit)"
+  },
+  {
+   "title": "The International System of Units (SI Brochure)",
+   "publisher": "BIPM",
+   "url": "https://www.bipm.org/en/publications/si-brochure"
+  },
+  {
+   "title": "The Nobel Prize in Physiology or Medicine 2003",
+   "publisher": "NobelPrize.org",
+   "url": "https://www.nobelprize.org/prizes/medicine/2003/summary/"
+  },
+  {
+   "title": "History of magnetic resonance imaging",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/History_of_magnetic_resonance_imaging"
+  },
+  {
+   "title": "Masato Sagawa",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Masato_Sagawa"
+  },
+  {
+   "title": "Making a Big Leap in Magnet Innovation",
+   "publisher": "The Government of Japan (JapanGov)",
+   "url": "https://www.japan.go.jp/kizuna/2022/04/magnet_innovation.html"
+  },
+  {
+   "title": "How a rare solar storm lit up Ladakh's skies with auroras",
+   "publisher": "Nature India",
+   "url": "https://www.nature.com/articles/d44151-025-00142-x"
+  },
+  {
+   "title": "World Magnetic Model",
+   "publisher": "NOAA National Centers for Environmental Information",
+   "url": "https://www.ncei.noaa.gov/products/world-magnetic-model"
+  },
+  {
+   "title": "Maximum energy product",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Maximum_energy_product"
+  },
+  {
+   "title": "KS Steel",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/KS_Steel"
+  },
+  {
+   "title": "Samarium–cobalt magnet",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Samarium%E2%80%93cobalt_magnet"
+  },
+  {
+   "title": "Alnico",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Alnico"
+  },
+  {
+   "title": "Static magnets for reducing pain: systematic review and meta-analysis (Pittler, Brown & Ernst, 2007)",
+   "publisher": "CMAJ",
+   "url": "https://www.cmaj.ca/content/177/7/736"
+  },
+  {
+   "title": "Neodymium magnet",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Neodymium_magnet"
+  },
+  {
+   "title": "Raymond Damadian",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Raymond_Vahan_Damadian"
+  },
+  {
+   "title": "Paul Lauterbur",
+   "publisher": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/Paul_Lauterbur"
+  }
+ ]
+}
